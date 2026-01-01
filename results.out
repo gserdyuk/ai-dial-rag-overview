@@ -1,0 +1,300 @@
+C:\home\ai-epam-course1\ai-dial-rag-overview\task>python3 -m app
+?? Initializing Microwave Manual RAG System...
+? Loaded existing FAISS index
+?? Microwave RAG Assistant
+
+> What safety precautions should be taken to avoid exposure to excessive microwave energy?
+====================================================================================================
+?? STEP 1: RETRIEVAL
+----------------------------------------------------------------------------------------------------
+Query: 'What safety precautions should be taken to avoid exposure to excessive microwave energy?'
+Searching for top 8 most relevant chunks with similarity score 0.3:
+
+--- (Relevance Score: 0.591) ---
+Content: PRECAUTIONS TO AVOID POSSIBLE EXPOSURE TO
+EXCESSIVE MICROWAVE ENERGY
+1. Do not attempt to operate this oven with the door open since open-door operation
+can result in harmful exposure to microwave energy. It is important not to defeat or
+tamper with the safety interlocks.
+
+--- (Relevance Score: 0.564) ---
+Content: IMPORTANT SAFETY INSTRUCTIONS
+When using electrical appliance basic safety precautions should be followed, including the
+following:
+WARNING -To reduce the risk of burns, electric shock, ?re, injury to persons or exposure
+to excessive microwave energy:
+
+--- (Relevance Score: 0.501) ---
+Content: to excessive microwave energy:
+1. Read all instructions before using the appliance and keep for future reference.
+2. Use this appliance only for its intended use as described in the manual. Do not
+use corrosive chemicals or vapors in this appliance. This type of oven is speci?cally
+
+--- (Relevance Score: 0.433) ---
+Content: oven.
+16. WARNING - It is hazardous for anyone other than a trained person to carry out any
+service or repair operation which involves the removal of any cover which gives
+protection against exposure to microwave energy.
+
+--- (Relevance Score: 0.360) ---
+Content: assures protection against microwave radiation. This applies to changing the power
+cord or the lighting as well. Send the appliance in these cases to our service centre.
+34. The microwave oven is intended for defrosting, cooking and steaming of food only.
+
+--- (Relevance Score: 0.357) ---
+Content: temperature should be checked before serving in order to avoid burns.
+14. Cooking utensils may become hot because of heat transferred from the heated food.
+Potholders may be needed to handle the utensils.
+15. Utensils should be checked to ensure that they are suitable for use in microwave
+oven.
+
+--- (Relevance Score: 0.352) ---
+Content: 1. Clean door and sealing surface of the oven.
+2. Reorient the receiving antenna of radio or television.
+3. Relocate the microwave oven with respect to the receiver.
+4. Move the microwave oven away from the receiver.
+
+--- (Relevance Score: 0.342) ---
+Content: utensils, or food in the cavity when not in use.
+The microwave oven is intended for heating food and beverages. Drying of clothing
+and heating of warming pads, slippers, sponges, damp cloth and similar may lead to
+risk of injury, ignition or ?re.
+====================================================================================================
+
+?? STEP 2: AUGMENTATION
+----------------------------------------------------------------------------------------------------
+##RAG CONTEXT:
+PRECAUTIONS TO AVOID POSSIBLE EXPOSURE TO
+EXCESSIVE MICROWAVE ENERGY
+1. Do not attempt to operate this oven with the door open since open-door operation
+can result in harmful exposure to microwave energy. It is important not to defeat or
+tamper with the safety interlocks.
+
+IMPORTANT SAFETY INSTRUCTIONS
+When using electrical appliance basic safety precautions should be followed, including the
+following:
+WARNING -To reduce the risk of burns, electric shock, ?re, injury to persons or exposure
+to excessive microwave energy:
+
+to excessive microwave energy:
+1. Read all instructions before using the appliance and keep for future reference.
+2. Use this appliance only for its intended use as described in the manual. Do not
+use corrosive chemicals or vapors in this appliance. This type of oven is speci?cally
+
+oven.
+16. WARNING - It is hazardous for anyone other than a trained person to carry out any
+service or repair operation which involves the removal of any cover which gives
+protection against exposure to microwave energy.
+
+assures protection against microwave radiation. This applies to changing the power
+cord or the lighting as well. Send the appliance in these cases to our service centre.
+34. The microwave oven is intended for defrosting, cooking and steaming of food only.
+
+temperature should be checked before serving in order to avoid burns.
+14. Cooking utensils may become hot because of heat transferred from the heated food.
+Potholders may be needed to handle the utensils.
+15. Utensils should be checked to ensure that they are suitable for use in microwave
+oven.
+
+1. Clean door and sealing surface of the oven.
+2. Reorient the receiving antenna of radio or television.
+3. Relocate the microwave oven with respect to the receiver.
+4. Move the microwave oven away from the receiver.
+
+utensils, or food in the cavity when not in use.
+The microwave oven is intended for heating food and beverages. Drying of clothing
+and heating of warming pads, slippers, sponges, damp cloth and similar may lead to
+risk of injury, ignition or ?re.
+
+
+##USER QUESTION:
+What safety precautions should be taken to avoid exposure to excessive microwave energy?
+====================================================================================================
+
+?? STEP 3: GENERATION
+----------------------------------------------------------------------------------------------------
+To avoid exposure to excessive microwave energy, the following safety precautions should be taken:
+
+1. **Do not operate the microwave with the door open**: Open-door operation can result in harmful exposure to microwave energy. Do not tamper with or defeat the safety interlocks designed to prevent this.
+
+2. **Do not attempt repairs yourself**: It is hazardous for anyone other than a trained professional to carry out service or repair operations that involve removing any cover that protects against microwave energy exposure. This includes tasks like changing the power cord or lighting. Such repairs should be handled by a service center.
+
+3. **Keep the door and sealing surface clean**: Ensure that the door and sealing surface of the oven are clean to maintain proper functioning and prevent leakage of microwave energy.
+
+These precautions are essential to ensure safety while using a microwave oven. [Source: RAG CONTEXT]
+====================================================================================================
+
+> What is the maximum cooking time that can be set on the DW 395 HCG microwave oven?
+====================================================================================================
+?? STEP 1: RETRIEVAL
+----------------------------------------------------------------------------------------------------
+Query: 'What is the maximum cooking time that can be set on the DW 395 HCG microwave oven?'
+Searching for top 8 most relevant chunks with similarity score 0.3:
+
+--- (Relevance Score: 0.505) ---
+Content: 2. Turn MENU/TIME dial to set cooking time. The longest time is 95 minutes.
+3. Press START/QUICK START button to con?rm.
+COMBINATION
+Combination 1: 30% of time for microwave cooking, 55% time for grill cooking and 15% time
+the oven will stop working in one cycle. Use for ?sh, potatoes or au gratin.
+
+--- (Relevance Score: 0.493) ---
+Content: Before using your Microwave Oven, please read this manual carefully and
+keep it for future reference.
+
+Microwave Oven
+User Manual
+MODEL: DW 395 HCG
+
+--- (Relevance Score: 0.472) ---
+Content: Microwave Oven
+User Manual
+MODEL: DW 395 HCG
+
+Inside, you will ?nd many helpful hints on how to use and maintain your Microwave Oven properly. Just a little
+preventive care on your part can save you a great deal of time and money over the life of your Microwave Oven.
+
+--- (Relevance Score: 0.467) ---
+Content: 2. Turn MENU/TIME dial to set cooking time. The longest time is 95 minutes.
+3. Press START/QUICK START button to con?rm.
+NOTE: During cooking, you can press GRILL/COMBI. button to check the combination
+power level.
+DISINFECT FUNCTION
+
+--- (Relevance Score: 0.408) ---
+Content: 2. Turn MENU/TIME dial to set cooking time. The longest time is 95 minutes.
+3. Press START/QUICK START button to con?rm.
+Press POWER/CLOCK button to select power level:
+Press POWER/CLOCK
+Once
+Twice
+3 times
+4 times
+5 times
+6 times
+
+--- (Relevance Score: 0.366) ---
+Content: Combination 2: 40% of time for microwave cooking, 15% time the oven will stop working and
+45% for grill cooking in one cycle. Use for pudding, omelets, baked potatoes and poultry.
+1. In standby mode, press GRILL/COMBI. button 2 or 3 times to select "Co-1" or "Co-2".
+
+--- (Relevance Score: 0.334) ---
+Content: EXPRESS COOKING
+Use this feature to program the oven to microwave food at 100% power conveniently. In
+standby mode, press START/QUICK START button repeatedly to set cooking time (each
+press to increase 30 seconds, and up to 10 minutes), the oven starts working automatically at full power.
+GRILL
+
+--- (Relevance Score: 0.319) ---
+Content: CONTROL PANEL
+DISPLAY
+Cooking time, power, indicators and clock
+time are displayed.
+POWER/CLOCK
+Press to select microwave power level.
+Use to set clock time.
+GRILL/COMBI.
+Press to set grill cooking program.
+Press to set microwave and grill combination
+cooking program.
+MENU/TIME (dial)
+====================================================================================================
+
+?? STEP 2: AUGMENTATION
+----------------------------------------------------------------------------------------------------
+##RAG CONTEXT:
+2. Turn MENU/TIME dial to set cooking time. The longest time is 95 minutes.
+3. Press START/QUICK START button to con?rm.
+COMBINATION
+Combination 1: 30% of time for microwave cooking, 55% time for grill cooking and 15% time
+the oven will stop working in one cycle. Use for ?sh, potatoes or au gratin.
+
+Before using your Microwave Oven, please read this manual carefully and
+keep it for future reference.
+
+Microwave Oven
+User Manual
+MODEL: DW 395 HCG
+
+Microwave Oven
+User Manual
+MODEL: DW 395 HCG
+
+Inside, you will ?nd many helpful hints on how to use and maintain your Microwave Oven properly. Just a little
+preventive care on your part can save you a great deal of time and money over the life of your Microwave Oven.
+
+2. Turn MENU/TIME dial to set cooking time. The longest time is 95 minutes.
+3. Press START/QUICK START button to con?rm.
+NOTE: During cooking, you can press GRILL/COMBI. button to check the combination
+power level.
+DISINFECT FUNCTION
+
+2. Turn MENU/TIME dial to set cooking time. The longest time is 95 minutes.
+3. Press START/QUICK START button to con?rm.
+Press POWER/CLOCK button to select power level:
+Press POWER/CLOCK
+Once
+Twice
+3 times
+4 times
+5 times
+6 times
+
+Combination 2: 40% of time for microwave cooking, 15% time the oven will stop working and
+45% for grill cooking in one cycle. Use for pudding, omelets, baked potatoes and poultry.
+1. In standby mode, press GRILL/COMBI. button 2 or 3 times to select "Co-1" or "Co-2".
+
+EXPRESS COOKING
+Use this feature to program the oven to microwave food at 100% power conveniently. In
+standby mode, press START/QUICK START button repeatedly to set cooking time (each
+press to increase 30 seconds, and up to 10 minutes), the oven starts working automatically at full power.
+GRILL
+
+CONTROL PANEL
+DISPLAY
+Cooking time, power, indicators and clock
+time are displayed.
+POWER/CLOCK
+Press to select microwave power level.
+Use to set clock time.
+GRILL/COMBI.
+Press to set grill cooking program.
+Press to set microwave and grill combination
+cooking program.
+MENU/TIME (dial)
+
+
+##USER QUESTION:
+What is the maximum cooking time that can be set on the DW 395 HCG microwave oven?
+====================================================================================================
+
+?? STEP 3: GENERATION
+----------------------------------------------------------------------------------------------------
+The maximum cooking time that can be set on the DW 395 HCG microwave oven is **95 minutes**. This can be done by turning the MENU/TIME dial to set the desired cooking time. [Source: Microwave Oven User Manual, DW 395 HCG]
+====================================================================================================
+
+> What do you think about the dinosaur era? Why did they die?
+====================================================================================================
+?? STEP 1: RETRIEVAL
+----------------------------------------------------------------------------------------------------
+Query: 'What do you think about the dinosaur era? Why did they die?'
+Searching for top 8 most relevant chunks with similarity score 0.3:
+C:\home\ai-epam-course1\ai-dial-rag-overview\task\app.py:90: UserWarning: Relevance scores must be between 0 and 1, got [(Document(id='a96e1ed0-465e-453c-bce2-cdc075340f10', metadata={'source': 'microwave_manual.txt'}, page_content='by burning the lubricating oil. This phenomenon will disappear after a period of using.'), np.float32(-0.25400448)), (Document(id='e54eb926-94a3-4db1-afaf-1dfdb845716d', metadata={'source': 'microwave_manual.txt'}, page_content='DEODORIZE FUNCTION\n1. In standby mode, press DISINFECT/DEODORIZE/ECO once. The display shows the\ndisinfection mode 1 code "dIS1". Then turn MENU/TIME dial until the display shows the\ndeodorization mode code dEo.\n2. Press START/QUICK START button to con?rm.'), np.float32(-0.26420462)), (Document(id='18a572b0-6a26-4c47-b508-263811fe97ac', metadata={'source': 'microwave_manual.txt'}, page_content='utensils, or food in the cavity when not in use.\nThe microwave oven is intended for heating food and beverages. Drying of clothing\nand heating of warming pads, slippers, sponges, damp cloth and similar may lead to\nrisk of injury, ignition or ?re.'), np.float32(-0.26931524)), (Document(id='ef7ed967-13e0-43fa-a9ee-0f7a054c3254', metadata={'source': 'microwave_manual.txt'}, page_content='designed to heat, cook or dry food. It is not designed for industrial or laboratory use.\n3. Do not operate the oven when empty.\n4. Do not operate this appliance if it has a damaged cord or plug, if it is not working'), np.float32(-0.27355742)), (Document(id='4603c202-3a44-46d7-afc1-18435707ba16', metadata={'source': 'microwave_manual.txt'}, page_content='shape and size of food, your personal\npreference as to the doneness of certain\nfoods and even how well you happen to\nplace food in the oven. If you ?nd the\nresult at any rate not quite satisfactory,\nplease adjust the cooking time a little bit\naccordingly.'), np.float32(-0.27423263)), (Document(id='785d223b-f413-48a1-9132-217239153b67', metadata={'source': 'microwave_manual.txt'}, page_content='ECO FUNCTION\nTo set:\n1. In standby mode, press DISINFECT/DEODORIZE/ECO once. The display shows the\ndisinfection mode 1 code "dIS1". Then turn MENU/TIME dial until the display shows the\npower saving mode code ECO.\n2. Press START/QUICK START button to con?rm.'), np.float32(-0.27692044)), (Document(id='33cd2e66-3925-486e-a00e-b4566c79d2f8', metadata={'source': 'microwave_manual.txt'}, page_content='dry with a soft cloth.\n11. If the light bulb burns out, please contact customer service to have it replaced.\n12. The oven should be cleaned regularly and any food deposits should be removed.\nFailure to maintain the oven in a clean condition could lead to deterioration of surface'), np.float32(-0.27996254)), (Document(id='dfea6adb-b681-42e4-816b-c2d72af5443a', metadata={'source': 'microwave_manual.txt'}, page_content='2. Turn MENU/TIME dial to set cooking time. The longest time is 95 minutes.\n3. Press START/QUICK START button to con?rm.\nNOTE: During cooking, you can press GRILL/COMBI. button to check the combination\npower level.\nDISINFECT FUNCTION'), np.float32(-0.2876184))]
+  relevant_docs = self.vectorstore.similarity_search_with_relevance_scores(
+No relevant docs were retrieved using the relevance score threshold 0.3
+====================================================================================================
+
+?? STEP 2: AUGMENTATION
+----------------------------------------------------------------------------------------------------
+##RAG CONTEXT:
+
+
+
+##USER QUESTION:
+What do you think about the dinosaur era? Why did they die?
+====================================================================================================
+
+?? STEP 3: GENERATION
+----------------------------------------------------------------------------------------------------
+I cannot answer that question as it is unrelated to microwave usage and there is no relevant information in the provided context. Let me know if you have any questions about microwaves!
+====================================================================================================
